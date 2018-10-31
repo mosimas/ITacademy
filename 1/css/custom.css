@@ -1,0 +1,228 @@
+.i-am-centered { margin: auto; max-width: 900px;}
+
+/*Navabar*/
+li {
+	-webkit-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+	box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+}
+/*.navbar{
+	background: url(../images/rev2.png);
+	-webkit-box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
+-moz-box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
+box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
+}*/
+a:link.Kachel {
+	line-height: 88px;/* text-align: center;*/
+		
+        
+}
+.team{
+	background-color: #5C5C5C;
+}
+.home {
+	background-color: #ACC908;
+	height: 89px
+}
+.service {
+	background-color: #b2a095;
+	height: 89px
+}
+.about {
+	background-color: #d6de23;
+	height: 89px
+}
+.contact {
+	background-color: #BFB0AF;
+	height: 89px
+}
+.training {
+	background-color: #E4035E;
+	height: 89px
+}
+.ul-height {
+	height: 89px
+}
+@font-face {
+	font-family: handwriting;
+	src: url(../fonts/SoulMarker_Handwriting_Font.ttf);
+}
+@font-face {
+	font-family: champagne;
+	src: url(../fonts/Champagne.ttf);
+}
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../fonts/CaviarDreams_Bold.ttf)
+}
+.rotate {
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	transform: rotate(0.0deg);
+}
+.nav-link {
+	font-family: CaviarDreams;
+	text-transform: uppercase;
+	transform: rotate(270deg);
+}
+p {
+	color: #cccc00;
+	text-decoration: bold
+}
+.font_type{
+	font-family: champagne;
+}
+.navbar-brand {
+	padding: 0px 150px 0px 89px;
+	height: 89px;
+	line-height: 80px;
+	font-family: champagne;
+	text-transform: uppercase;
+}
+.colo {
+	color: #cccc00
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 89px;
+	background: url(../images/rev3_dark.png);
+	z-index: 1000;
+}
+/*sections*/
+body {
+	margin: 0;
+}
+#home {
+	padding-top: 50px;
+	height: 550px;
+	color: #fff;
+}
+#services {
+	padding-top: 150px;
+	height: 650px;
+	color: #fff;
+}
+#about {
+	padding-top: 50px;
+	height: 1100px;
+	color: #fff;
+}
+#training {
+	padding-top: 50px;
+	height: 500px;
+	color: #fff;
+}
+#contact {
+	padding-top: 50px;
+	height: 500px;
+	color: #fff;
+}
+/* margin on top*/
+.main {
+	margin-top: 89px; /* Add a top margin to avoid content overlay */
+}
+/*Parallax*/
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bgimg-1 {
+	background-image: url("../images/Ikdoor@1x.jpg");
+	min-height: 100%;
+}
+.bgimg-2 {
+	background-image: url("../images/Services wallpaper.png");
+	min-height: 400px;
+}
+.bgimg-3 {
+	background-image: url("../images/5273650-dark-green-wallpaper.jpg");
+	min-height: 400px;
+}
+.bgimg-4 {
+	background-image: url("../images/beautiful.png");
+	min-height: 400px;
+}
+.bgimg-5 {
+	background-image: url("../images/dark-backgrounds-wallpapers-hd.jpg");
+	min-height: 400px;
+}
+/*home content*/
+
+.change_ikworx {
+	color: #cccc00;
+}
+div.home_section {
+	padding: 120px 0px 50px;
+}
+div.home_section h1 {
+	text-align: center;
+	padding: 0px 0px 50px 0px;
+	font-family: champagne;
+	font-weight: bold;
+}
+div.home_section p {
+	text-align: center;
+	font-family: handwriting;
+	font-size: 50px
+}
+div.transbox {
+	overflow: hidden;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(153, 0, 0, 0.2);
+	margin: 30px;
+	border: 1px solid black;/*  filter: alpha(opacity=60); For IE8 and earlier */
+}
+div.transbox p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+/*card*/
+.card {
+	height: 27rem;
+	width: 13rem;
+	z-index: auto;
+}
+/*DARKEN*/
+.card-img-top {
+	background-color: #777776;
+}
+img {
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+img:hover {
+	-webkit-filter: brightness(50%);
+}
+.card-body {
+	height: 8rem;
+}
+.row{
+	z-index: 2;
+}
+.padd{
+padding-left: 120px;}
+.padd-li{
+	margin: 100px 0px 0px 0px;
+	height: 5px;
+	
+}
+
+
